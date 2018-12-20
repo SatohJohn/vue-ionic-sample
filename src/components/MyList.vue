@@ -4,7 +4,7 @@
       <ion-item-sliding :key="person.id" v-for="person in persons">
         <ion-item>
           <ion-avatar slot="start">
-            <img src="/assets/logo.png" />
+            <img src="../assets/logo.png" />
           </ion-avatar>
           <ion-label>
             <h2>{{person.name}}</h2>
